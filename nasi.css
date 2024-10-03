@@ -1,0 +1,272 @@
+@font-face {
+  font-family: crisa;
+  src: url(Crisa.ttf);
+}
+
+@import "animate.css";
+
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #fff8e8;
+}
+
+nav {
+  background-color: #f7eed3;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.1rem 2rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav div img {
+  width: 105px;
+  height: 95px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #674636;
+  font-weight: 600;
+  padding: 8px 0;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+section img {
+  max-width: 300px;
+  margin-right: 150px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.7);
+}
+
+.pembuka h1 {
+  font-family: crisa;
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  margin: 90px 80px 20px;
+}
+
+.pembuka h1 span {
+  color: #674636;
+}
+
+.pembuka p {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 150px;
+}
+
+.container {
+  margin-top: 30px;
+  float: right;
+}
+
+.scerand {
+  display: flex;
+  align-items: center;
+  color: #674636;
+  border-style: solid;
+  padding: 8px 16px;
+  border-radius: 40px;
+}
+
+.scerand .icon {
+  font-size: 1.18rem;
+  color: #674636;
+}
+
+.scerand .input {
+  transition: 0.5s;
+  width: 0px;
+  overflow: hidden;
+}
+
+.input .in {
+  border: none;
+  outline: none;
+  background-color: unset;
+  font-weight: bold;
+}
+
+.scerand:hover .input {
+  width: 200px;
+  margin-left: 8px;
+}
+
+header {
+  background: #616d48;
+  padding: 1em;
+}
+
+header img {
+  max-width: 400px;
+  margin: 100px;
+}
+
+a.tbl-home {
+  background: #aab396;
+  border-radius: 5px;
+  padding: 12px 15px;
+  color: #674636;
+  cursor: pointer;
+  text-decoration: none;
+  border: 15px 20px;
+  width: 50%;
+  height: 6vh;
+  margin-left: 80px;
+  outline: none;
+  font-size: 120%;
+  font-weight: 700;
+  transition: 0.2s linear;
+  text-align: center;
+}
+
+a.tbl-home:hover {
+  background: #616d48;
+  color: #f7eed3;
+}
+
+footer {
+  background: #f7eed3;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  padding: 50px;
+  color: #000000;
+}
+footer ul li span {
+  display: block;
+  font-size: 35px;
+  margin-bottom: 1em;
+  color: #674636;
+  font-family: crisa;
+}
+
+footer ul {
+  display: grid;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+}
+
+footer ul {
+  display: grid;
+  list-style-type: none;
+  margin: 100px;
+  padding: 0;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+}
+
+footer ul li hr {
+  margin: 20px 0px 20px 0px;
+}
+
+.kolom {
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+.kolom h2 {
+  font-size: 60px;
+  font-family: crisa;
+  color: #674636;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+
+.kolom p {
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  margin-right: 100px;
+}
+
+a.tbl-red {
+  background: #aab396;
+  border-radius: 10px;
+  padding: 12px 15px;
+  color: #674636;
+  cursor: pointer;
+  text-decoration: none;
+  border: 15px 20px;
+  width: 50%;
+  height: 6vh;
+  outline: none;
+  font-size: 120%;
+  font-weight: 700;
+  transition: 0.2s linear;
+  text-align: center;
+}
+
+a.tbl-red:hover {
+  background: #674636;
+  color: #f7eed3;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+a.tbl-back {
+  background: #674636;
+  border-radius: 10px;
+  padding: 10px 10px;
+  color: #f7eed3;
+  cursor: pointer;
+  text-decoration: none;
+  border: 15px 20px;
+  width: 20%;
+  height: 6vh;
+  outline: none;
+  font-size: 90%;
+  font-weight: 700;
+  transition: 0.2s linear;
+  text-align: center;
+}
+
+a.tbl-back:hover {
+  background: #fff8e8;
+  color: #674636;
+}

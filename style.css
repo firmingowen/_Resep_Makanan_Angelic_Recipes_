@@ -1,0 +1,144 @@
+@font-face {
+  font-family: crisa;
+  src: url(Crisa.ttf);
+}
+
+@import "animate.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.1rem 2rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav div img {
+  width: 105px;
+  height: 95px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: crisa;
+  font-size: 40px;
+  margin: 20px;
+}
+
+nav span {
+  color: #674636;
+}
+
+.font h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 50px;
+}
+
+.font p {
+  color: white;
+  font-size: 18 px;
+  text-align: center;
+  margin: 30px 300px 0px 300px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.2px;
+}
+
+a.tbl-home {
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: white;
+  border-style: solid;
+  cursor: pointer;
+  text-decoration: none;
+  width: 50%;
+  height: 6vh;
+  outline: none;
+  font-size: 120%;
+  font-weight: 700;
+  transition: 0.2s linear;
+  text-align: center;
+}
+
+a.tbl-home:hover {
+  border-style: solid;
+  color: #674636;
+}
+
+.data video {
+  position: absolute;
+  object-fit: cover;
+  width: 120%;
+  height: 105%;
+}
+
+.data form {
+  font-size: 30px;
+  position: absolute;
+  z-index: 2;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fullscreen-bg {
+  width: 100%;
+  height: 100vh;
+}
+
+.fullscreen-bg video {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin: 30px;
+}
+
+.scerand {
+  display: flex;
+  align-items: center;
+  color: white;
+  border-style: solid;
+  padding: 8px 16px;
+  border-radius: 40px;
+}
+
+.scerand .icon {
+  font-size: 1.18rem;
+  color: white;
+}
+
+.scerand .input {
+  transition: 0.5s;
+  width: 0px;
+  overflow: hidden;
+}
+
+.input .in {
+  border: none;
+  outline: none;
+  background-color: unset;
+  font-weight: bold;
+}
+
+.scerand:hover .input {
+  width: 200px;
+  margin-left: 8px;
+}
